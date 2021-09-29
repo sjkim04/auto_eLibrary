@@ -1,5 +1,7 @@
-# auto_eLibrary
+# auto_eLibrary (BETA)
 eライブラリーの解答・解説を指定された秒数だけ開閉させるプログラム。
+ベータバージョンです。うまく動かない場合があります。
+
 
 ## インストール方法・使用方法
 [INSTALL.md](INSTALL.md) 参照
