@@ -1,6 +1,6 @@
-if ($('#panel-judge').attr('button_mode') == 'judge') {
+if ($("#panel-judge").attr("button_mode") == "judge") {
   alert('回答が入力されていません');
-else {
+} else {
   var time = prompt('解答を見る秒数をご記入ください。(max 180)\n解答開閉ボット by のむチュウ', '');
   if(isNaN(time)) {
     alert('入力されたものが数字ではありません');
@@ -12,5 +12,6 @@ else {
     drill.openExplainDialog(true);
     setTimeout(function() {
       drill.closeExplainDialog(true);
-    },time*1000)
+    },time*1000);
+  }
 }
